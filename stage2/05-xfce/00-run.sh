@@ -12,5 +12,5 @@ install -m 755 usr/local/libexec/pulseaudio-module-xrdp/load_pa_modules.sh "${RO
 install -m 644 etc/xdg/autostart/pulseaudio-xrdp.desktop "${ROOTFS_DIR}"/etc/xdg/autostart/
 
 #Add Environment=JACK_PROMISCUOUS_SERVER=audio
-install -d "${ROOTFS_DIR}"/etc/skel/.config/systemd/user/pulseaudio.service
+install -d "${ROOTFS_DIR}"/etc/skel/.config/systemd/user
 install -m 644 etc/skel/.config/systemd/user/pulseaudio.service "${ROOTFS_DIR}"/etc/skel/.config/systemd/user/pulseaudio.service

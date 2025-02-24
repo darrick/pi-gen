@@ -11,5 +11,4 @@ dpkg -i deb-multimedia-keyring_2016.8.1_all.deb
 rm -r deb-multimedia-keyring_2016.8.1_all.deb
 echo "deb http://deb-multimedia.org bullseye main non-free" >> /etc/apt/sources.list
 apt-get update
-useradd -m -c Rivendell\ Audio --groups audio rd && echo rd:letmein | chpasswd
 EOF
